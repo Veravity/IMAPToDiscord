@@ -1,0 +1,5 @@
+version: '3'
+services:
+  gmailtodiscord:
+    image: recho1235/gmailtodiscord:latest
+    restart: unless-stopped
